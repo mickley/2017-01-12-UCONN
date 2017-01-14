@@ -266,7 +266,7 @@ eventbrite: 30193098370    # optional: alphanumeric key for Eventbrite registrat
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-shell">The Unix Shell</h3>
+   <h3 id="syllabus-shell"><a href="http://swcarpentry.github.io/shell-novice/">The Unix Shell</a></h3>
     <ul>
       <li>Files and directories</li>
       <li>History and tab completion</li>
@@ -278,7 +278,7 @@ eventbrite: 30193098370    # optional: alphanumeric key for Eventbrite registrat
     </ul>
   </div>
   <div class="col-md-6">
-    <h3 id="syllabus-r">Programming in R</h3>
+   <h3 id="syllabus-r"><a href="http://swcarpentry.github.io/r-novice-inflammation">Programming in R</a></h3>
     <ul>
       <li>Introduction to R</li>
       <li>Working in RStudio</li>
@@ -294,7 +294,7 @@ eventbrite: 30193098370    # optional: alphanumeric key for Eventbrite registrat
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-r">Programming in R Continued</h3>
+    <h3 id="syllabus-r"><a href="http://swcarpentry.github.io/r-novice-gapminder">Programming in R Continued</a></h3>
     <ul>
       <li>Creating and using functions</li>
       <li>Loops and conditional statements</li>
@@ -306,7 +306,7 @@ eventbrite: 30193098370    # optional: alphanumeric key for Eventbrite registrat
     </ul>
   </div>
   <div class="col-md-6">
-    <h3 id="syllabus-git">Version Control with Git</h3>
+    <h3 id="syllabus-git"><a href="http://swcarpentry.github.io/git-novice">Version Control with Git</a></h3>
     <ul>
       <li>Creating a repository</li>
       <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
@@ -324,8 +324,80 @@ eventbrite: 30193098370    # optional: alphanumeric key for Eventbrite registrat
 
 
 <h2 id="resources">Resources</h2>
-<p> We'll update this section with some resources to help improve your skills after the workshop. </p>
-
+<p> First and foremost, we recommend the <a href="https://software-carpentry.org/lessons/">lessons from Software Carpentry</a> that we followed for this course.  We've added links to those lessons in the schedule above </p>
+  <h3> Unix Shell </h3>
+    <ul>
+      <li><a href="http://man.cx ">man.cx</a>: Online manual of shell commands</li>
+      <li><a href="http://explainshell.com">explainshell.com</a>: Helpful tool to explain the parts of a shell command</li>
+      <li><a href="https://github.com/mickley/2017-01-12-UCONN/blob/gh-pages/code/shell.txt.sh">Our shell commands and output from workshop</a></li>
+    </ul>    
+  <h3> Programming &amp; Data Analysis with R </h3>
+    <ul>
+       <li>**General R Help**
+	<ul>
+          <li><a href="https://rdrr.io/">rdrr.io</a>: Nicely formatted help for functions in R packages.  Easier to read and even lets you run examples in your browser!</li>
+          <li><a href="https://www.rstudio.com/resources/cheatsheets/">R Cheatsheets</a>: Especially recommend data wrangling, data visualization, and R markdown </li>
+          <li><a href="http://stackoverflow.com">stackoverflow.com</a>: Great place to ask for or search for help with specific problems.  Many package authors monitor this website.</li>
+	  <li><a href="http://adv-r.had.co.nz/Style.html">R Style Guide</a>: Write neat readable code</li>
+	</ul>   
+      </li>
+      <li>**Data Wrangling**
+        <ul>
+          <li><a href="http://www.cookbook-r.com/Manipulating_data/">R Cookbook</a></li>          
+          <li><a href="https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/">RStudio webinar</a></li>
+	</ul>
+      </li>
+      <li>**Making GGPlot Graphs**
+        <ul>
+          <li><a href="http://docs.ggplot2.org/">ggplot2 Online Documentation</a></li>
+          <li><a href="http://www.cookbook-r.com/Graphs/">R Cookbook</a></li>
+          <li><a href="http://www.sthda.com/english/wiki/ggplot2-essentials">ggplot2 Essentials</a>: This website has a wealth of information on more complicated graphs</li>
+          <li><a href="http://shiny.stat.ubc.ca/r-graph-catalog/">R Graph Catalog</a>: Lots of graph examples with code by another SWC instructor</li>
+          <li><a href="https://cran.r-project.org/web/packages//vignettes/introduction.html">Cowplot package</a>: A theme and some extra tools for making publication-ready graphs in ggplot2</li>	
+	</ul>
+      </li>
+      <li>**R Markdown &amp; R Notebooks** 
+        <ul>
+          <li><a href="rmarkdown">R Markdown Official Website</a>: Lots of documentation, examples, and webcasts here</li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+	</ul>
+      </li>
+      <li>**Day 1 R Code** 
+        <ul>
+          <li><a href="https://raw.githubusercontent.com/noracmitchell/PopGen_2017/master/IntroR.R">Day 1 - First part</a></li>
+          <li><a href="https://raw.githubusercontent.com/noracmitchell/PopGen_2017/master/Gapminder-Part1.R">Day 1 - Second part (using a project)</a></li>
+	</ul>
+      </li>  
+      <li>**Day 2 R Code** 
+        <ul>
+          <li><a href="https://github.com/mickley/2017-01-12-UCONN/blob/gh-pages/code/SWC-Day2.R">R Code</a></li>
+          <li><a href="https://github.com/mickley/2017-01-12-UCONN/blob/gh-pages/code/My-R-Notebook.Rmd">Example R Notebook</a></li>
+	</ul>
+      </li>  
+    </ul>    
+  <h3> Using Git and Github </h3>
+    <ul>
+      <li>**Quick References**
+	<ul>
+          <li><a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf">Git Cheatsheet</a></li>
+          <li><a href="https://swcarpentry.github.io/git-novice/reference/">Concepts</a></li>
+          <li><a href="https://github.com/k88hudson/git-flight-rules">When things go wrong</a></li>		
+	</ul>
+      </li>
+      <li>**Choosing a Software License**
+	<ul>
+          <li><a href="http://www.gnu.org/licenses/license-list.html">Licenses for Code</a></li>
+          <li><a href="https://creativecommons.org/choose/">Licenses for books, papers, etc.</a></li>		
+	</ul>
+      </li>	    
+      <li>**Sharing Data** (will often issue a DOI for your work)
+	<ul>
+          <li><a href="http://www.nature.com/sdata/data-policies/repositories">Discipline-specific data repositories</a></li>
+          <li><a href="http://zenodo.org/">Catch-all repository</a></li>	
+	</ul>
+      </li>
+    </ul>    
 <!-- Commented out for now
 <p> Here are some resources from our workshop that you can refer to to help improve your skills. </p>
 <ul>
