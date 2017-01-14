@@ -303,40 +303,11 @@ $ ls -F
 $ ls -F -a
 ./	../
 $ nano draft.txt
-MTheenotationoforhshortcutsmisnasmfollows:rControl-keyesequencesBLB Refreshile ] B^YB Prev Page    B^PB Prev Line    BM-\B First Line	   B^VB Next Page    B^NB Next Line    BM-/B Last Line
-are notated with a caret (^) symbol and can be entered either
-by using the Control (Ctrl) key or pressing the Escape (Esc)
-key twice.  Escape-key sequences are notated with the Meta (M-)
-symbol and can be entered using either the Esc, Alt, or Meta
-key depending on your keyboard setup.  Also, pressing Esc twice
-and then typing a three-digit decimal number from 000 to 255
-will enter the character with the corresponding value.	The
-following keystrokes are available in the main editor window.
-Alternative keys are shown in parentheses:
-
-^G(F1)Display this help text
-^X(F2)Close the current file buffer / Exit
-from nano
-^O(F3)Write the current file to disk
-^J(F4)Justify the current paragraph
-
-^R(F5)Insert another file into the current one
-^W(F6)Search for a string or a regular
-expression
-^Y(F7)Move to the previous screen
-^V(F8)Move to the next screen
-^cutbufferthe current line and store it in the
-^U(F10)Uncut from the cutbuffer into the
-current line
-$Flse-FameltoOWrite:edraft.txtadlFiB^YBkPrevdPaB^KBiCutsTexB^CBaCuBpPosB^B^TBuToiFilesBnWheBM-MB^MacNFormatB^BM-PBCPrependBCBoCancel the coBM-DBoDOSnFormate.BM-ABtAppendDisplaBM-BBsBackuptFileB	 B B[ Wrote 2 lines ]BB^OB WriteOuB^RB Read FiB^YB Prev PaB^KB Cut TexB^CB Cur PosBXB Exit   B^JB JustifyB^WB Where IB^VB Next PaB^UB UnCut TB^TB To Spell
-draft.txt
 $ rm draft.txt
 $ ls
 $ ls -F -a
 ./	../
 $ nano.draft.txt
-lsd-Fe-ass.txtxtroteB1olinel]BM-ABNAppendBM-BBoBackupBFile)PrependoYBpYes File ]
-./		../		draft.txt
 $ cd ..
 $ pwd
 /Volumes/mickles/Desktop/data-shell
@@ -374,8 +345,6 @@ creatures/		thesis/
 data/			writing/
 molecules/
 $ nano thesis/draft.txt
-$BlsGthesisBB[DWroteB1olinel]BM-ABtAppendBM-BBoBackupBFile)PrependoYBpYes File ]
-draft.txt
 $ mv thesis/draft.txt thesis/quotes.txt
 $ ls thesis
 quotes.txt
@@ -671,43 +640,8 @@ NENE01751B.txt	NENE01978A.txt	NENE02040Z.txt	testfile02.txt
 $ for datafile in NENE*.txt
 > do
 >    echo $datafile
->    goostats $datafile
+>    bash goostats $datafile
 > done
-NENE01729A.txt
-bash: goostats: command not found
-NENE01729B.txt
-bash: goostats: command not found
-NENE01736A.txt
-bash: goostats: command not found
-NENE01751A.txt
-bash: goostats: command not found
-NENE01751B.txt
-bash: goostats: command not found
-NENE01812A.txt
-bash: goostats: command not found
-NENE01843A.txt
-bash: goostats: command not found
-NENE01843B.txt
-bash: goostats: command not found
-NENE01971Z.txt
-bash: goostats: command not found
-NENE01978A.txt
-bash: goostats: command not found
-NENE01978B.txt
-bash: goostats: command not found
-NENE02018B.txt
-bash: goostats: command not found
-NENE02040A.txt
-bash: goostats: command not found
-NENE02040B.txt
-bash: goostats: command not found
-NENE02040Z.txt
-bash: goostats: command not found
-NENE02043A.txt
-bash: goostats: command not found
-NENE02043B.txt
-bash: goostats: command not found
-bgoostatsd$dagoostatsE$hgoostats sgoostatsagoostagoostatgoostatsgoostats $sgoostats hgoostats goostat
 
 NENE01729A.txt
 goostats: line 11: $2: ambiguous redirect
